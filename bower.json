@@ -1,0 +1,9 @@
+{
+  "name": "khan",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "esprima": "~2.0.0",
+    "q": "1.0.1"
+  }
+}
