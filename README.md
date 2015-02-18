@@ -1,4 +1,4 @@
-# syntactic
+# syntactic.js
 syntactic.js provides an API for static analysis of javascript code intended
 for an educational setting. The API allows you to:
 
