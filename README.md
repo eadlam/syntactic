@@ -73,7 +73,9 @@ contents of these options is in the form `{TokenType:[token, token, etc., ...]}`
 
 Once instantiated, you can use the object to verify text. `verify()` returns the
 Requirements object with updated `status`, which equals `false` if the 
-verification failed, and `flags` which contains the offending items:
+verification failed, and `flags` which contains the offending items.
+
+#####example
 
     > var text = 'while(true){};'
     > syntactic.specify({
