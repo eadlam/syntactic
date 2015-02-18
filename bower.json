@@ -1,8 +1,8 @@
 {
-  "name": "khan",
-  "private": true,
+  "name": "syntactic",
+  "version":"0.1.0",
+  "main":"syntactic.js",
   "dependencies": {
-    "bootstrap": "~3.2.0",
     "esprima": "~2.0.0",
     "q": "1.0.1"
   }
