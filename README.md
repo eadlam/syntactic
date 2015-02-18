@@ -17,7 +17,7 @@ non-blocking way.
 
 # Usage
 
-##Template Structure Comparison
+###Template Structure Comparison
 
 `syntactic.outline(text)` instantiates a `SerializedStructure` object which 
 contains a parsed version of the input text. It can then be used to verify other 
@@ -61,8 +61,8 @@ be asynchronous by returning a promise.
         }
 
 
-Whitelist / Blacklist Specification (Asynchronous)
-==================================================
+###Whitelist / Blacklist Specification (Asynchronous)
+
 Unlike `syntactic.outline().verify()`, `syntactic.specify().verify()` is 
 asynchronous. It returns a promise so that it can be run in a non-blocking way. 
 In the future `syntactic.outline().verify()` will also use promises.
